@@ -9,6 +9,7 @@ public class CountBitDiff{
 	public int countBitDiff(int m, int n){
 		int xor = m ^ n;
 		return numOf1Bit(xor);
+		
 	}
 
 	public int numOf1Bit(int x){
